@@ -15,5 +15,6 @@ public class calculate_sum {
         int sum = calculate_sum(a, b);
         System.out.print("Sum is : ");
         System.out.println(sum);
+        sc.close();
     }
 }
