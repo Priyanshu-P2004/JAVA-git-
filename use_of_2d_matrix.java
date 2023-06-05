@@ -38,8 +38,9 @@ public class use_of_2d_matrix {
         for (i = 0; i < matrix.length; i++) {  // nested loop for input the matrix values
             for (j = 0; j< coloums; j++) {
                 if(x == matrix[i][j]){
-                    System.out.println(x+" is present in the matrix.");
+                    System.out.println(x+" is found at index ["+i+"]["+j+"]");
                     count++;
+                    break;
                 }
             }
         }

@@ -17,7 +17,6 @@ public class calcu_percent {
         float percent=(sum*100)/500;
         System.out.print(percent);
         System.out.print("%");
-
-
+        sc.close();
     }
 }

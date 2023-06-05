@@ -20,6 +20,7 @@ public class hello {
         }else{
               System.out.println("old");
           }
+          sc.close();
     }
 
 }

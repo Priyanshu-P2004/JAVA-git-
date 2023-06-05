@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class calculate_sum {
-    public static int calculate_sum(int a , int b) {
+    public static int Calculate_sum(int a , int b) {
         int sum = a + b;
         return sum;
     }
@@ -12,7 +12,7 @@ public class calculate_sum {
         System.out.print("Enter second number : ");
         int b = sc.nextInt();
 
-        int sum = calculate_sum(a, b);
+        int sum = Calculate_sum(a, b);
         System.out.print("Sum is : ");
         System.out.println(sum);
         sc.close();
